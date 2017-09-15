@@ -1,0 +1,205 @@
+body {
+    
+/*    background-image: url(../img/body-bg.jpg);*/
+    position: relative;
+    
+}
+
+.clear {
+    
+    clear: both;
+    
+}
+
+.navbar {
+    
+    font-family: 'Harmattan', sans-serif;
+    
+}
+
+#webname {
+    
+    font-size: 180%;
+    font-family: 'Orbitron', sans-serif;   
+    
+}
+
+.lang-btn {
+    
+    margin: 5px;
+    padding: 10px;
+    padding-top: 15px;
+    
+}
+
+.nav-link {
+    
+    padding: 10px;
+    
+}
+
+@media (min-width : 576px) {
+    #webname {
+        font-size: 200%;
+    }
+}
+
+.alert {
+    
+    margin: 0px;
+    
+}
+
+#cover-photo-frame {
+    width: 100%;
+    height: 250px;
+}
+
+#cover-photo-frame img {
+    
+    width: 100%;
+    height: 100%;
+
+}
+
+#profile-photo {
+    
+    height: 150px;
+    position: relative;
+    
+}
+
+#contact {
+    
+    position: relative;
+    
+}
+
+.jumbotron {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card {
+    
+    padding: 0px;
+    border: none;
+    
+}
+
+.my-link {
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#linkedin {
+    
+    color: #0077B5;
+    
+}
+
+#github {
+    
+    color: black;
+    
+}
+
+#facebook {
+    
+    color: #3B5998;
+    
+}
+
+#googleplus {
+    
+    color: #DB4437;
+    
+}
+
+#twitter {
+    
+    color: #1DA1F2;
+    
+}
+
+#intern-logo {
+    
+    height: 100px;
+    margin: 10px;
+    
+}
+
+.school-logo {
+    
+    height: 100px;
+    margin: 10px;
+    
+}
+
+#grad-back {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-container .card-block {
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+} 
+
+.bg-container .bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto;
+    height: 100%;
+    opacity: 0.3;
+}
+
+.transparent-bg {
+    
+    background-color: transparent;
+    
+}
+
+#grad-progress {
+    
+    background-color: #FFCB0B;
+    
+}
+
+#undergrad-progress {
+    
+    background-color: #7F1084;
+    
+}
+
+.img-fluid {
+    
+    height: 700px;
+
+}
+
+.project-img {
+    
+    width: 100%;
+    
+}
+
+.back-to-top {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    display:none;
+}
