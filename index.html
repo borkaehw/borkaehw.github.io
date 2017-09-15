@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <title>Author</title>
+      
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Supermercado+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Harmattan" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet"> 
+        
+        <!-- my css -->
+        <link rel="stylesheet" type="text/css" href="css/me.css?">
+      
+    </head>
+    
+    <body data-spy="scroll" data-target="#navbar-scrollspy" data-offset="100">
+
+        <a id="back-to-top" href="#" class="btn btn-primary back-to-top" role="button" title="Return to top" data-toggle="tooltip" data-placement="left"><i class="fa fa-hand-o-up" aria-hidden="true"></i></a>
+        
+        <!-- navbar -->
+        
+        <nav id="navbar-scrollspy" class="navbar navbar-light bg-faded fixed-top">
+
+            <div id="top-bar" class="d-flex justify-content-start">
+                
+                <a id="webname" class="home-link navbar-brand" href="">Starkque</a>
+
+                <button class="ml-auto btn btn-primary hidden-sm-up" type="button" data-toggle="collapse" data-target="#menuBar" aria-expanded="false" aria-controls="collapseExample">
+                    Menu
+                </button>
+                
+            </div>
+
+            <div id="menuBar" class="collapse hidden-xs-down">
+
+                <ul class="nav nav-tabs" role="tablist">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#profile">Profile</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#workexperience">Work</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Project</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#biography">Biography</a>
+                    </li>
+
+                    <li class="mr-auto nav-item">
+                        <a class="nav-link" href="#extra">Extra</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <span id="lang-btn-chi" class="lang-btn btn btn-primary nav-item pull-xs-right" href="">中文</span>
+                    </li>
+                
+                    <li class="nav-item">
+                        <span id="lang-btn-eng" class="lang-btn btn btn-primary nav-item pull-xs-right" href="">English</span>
+                    </li>
+
+                </ul>
+
+            </div>
+            
+        </nav>
+        
+        <div class="alert alert-success alert-dismissible" role="alert">
+  
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            
+            <p>This is portfolio of Kevin Hwang, you are welcome to contact me for reporting bugs or design problems. For beta service, click <a href="" class="home-link alert-link">Starkque</a>.</p>
+
+        </div>
+     
+        <!-- profile -->
+        <div id="profile" class="text-center">
+
+            <!-- Image-->
+            <div id="cover-photo-frame">
+                <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20%2859%29.jpg" alt="">
+            </div>
+
+            <img id="profile-photo" class="img-thumbnail rounded-circle" src="img/author.png">
+
+            <div id="contact">
+
+                <h1 id="name-head"></h1>
+
+                <p>
+                    <a id="linkedin" class="my-link" href=""><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                    <a id="github" class="my-link" href=""><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                    <a id="facebook" class="my-link" href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a id="twitter" class="my-link" href=""><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                </p>
+
+                <p><span id="mobile"></span></p>
+
+                <p id="email"></p>
+
+                <p>
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#about-me" data-name="about-me">
+                        More About Me
+                    </button>
+                    
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#email-me" data-name="email-me">
+                        Email Me Directly
+                    </button>
+                </p>        
+
+            </div>
+
+        </div>
+        
+        <!-- about me modal -->
+        <div class="modal fade" id="about-me" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">More About Me</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body container">
+
+                        <p>I am a dedicated person with a family of three. I love traveling and hiking, emerging myself in nature makes me feel more alive. I enjoy programming, every project gives me a sense of achievement that tells me there is no limit for my ability. I have been successful at studying, and I attribute this success to my ability to plan, schedule, and handle many different tasks at once. I am an easygoing person and like to meet new people, you are welcome to contact me.</p>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- email me modal -->
+        <div class="modal fade" id="email-me" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Send Email to Kevin Hwang</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <div class="modal-body container">
+
+                        <!-- error message -->
+
+                        <div id="error-email-me"></div>
+
+                        <form method="post">
+
+                            <div class="form-group">
+                                <label for="email-email-me">Your Email Address</label>
+                                <input type="email" class="form-control" id="email-email-me" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+
+                            <!-- subject -->
+                            <div class="form-group">
+                                <label for="subject-email-me">Subject</label>
+                                <input type="text" class="form-control" id="subject-email-me" name="subject" aria-describedby="emailHelp">
+                            </div>
+
+                            <!-- body -->
+                            <div class="form-group">
+                                <label for="body-email-me">What do you want to say?</label>
+                                <textarea class="form-control" id="body-email-me" name="body" rows="3"></textarea>
+                            </div>
+
+                            <!-- submit and cancel button -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary">Send</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        
+        <!-- work experience -->
+        
+        <div id="workexperience" class="jumbotron text-center">
+
+            <h1>
+                <i class="fa fa-briefcase fa-1x" aria-hidden="true"></i>
+                <span id="workexperience-head"></span>
+            </h1>
+
+        </div>
+        
+        <div class="container">
+            
+            <div class="row">
+
+            <!-- intern -->
+            <div id="intern-card" class="col-md-12 my-4">
+                    
+                    <img id="intern-logo" src="img/intern-logo.png">
+                
+                    <h2 id="intern-name"></h2>    
+                    <p id="intern-loc"></p>
+                    <p><span id="intern-startdate"></span>-<span id="intern-enddate"></span></p>
+                    
+                    <a href="https://clinc.com">Clinc.com</a>
+
+            </div>
+            
+            </div>
+            
+        </div>
+            
+        <!-- education -->
+        
+        <div id="education" class="jumbotron text-center">
+
+            <h1>
+                <i class="fa fa-university fa-1x" aria-hidden="true"></i>
+                <span id="education-head"></span>
+            </h1>
+
+        </div>
+        
+        <!-- education cards -->
+        
+        <div class="container">
+            
+            <div class="row">
+
+            <!-- graduate school -->
+            <div id="grad-card" class="col-md-6 my-4">
+                <div class="bg-container">
+                <img class="bg" src="img/um-campus.jpg">
+                <div class="card card-block">
+                    <div class="card-block">
+                               
+                        <img class="school-logo" src="img/um-logo.png">
+                        
+                        <h2 id="grad-name"></h2>
+                        <p id="grad-loc"></p>
+                        <p id="grad-degree"></p>
+                        <p>
+                            <span id="grad-gpa"></span>
+                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="out of 4.0" aria-hidden="true"></i>
+                        </p>
+                        <p id="grad-major"></p>  
+                        
+                        <!-- course -->
+                        <div role="tablist" aria-multiselectable="true">
+                            <div class="card transparent-bg">
+                                <div class="card-header" role="tab">
+                                    <h5 class="mb-0">
+                                        <a id="grad-course" data-toggle="collapse" data-parent="#accordion" href="#collapse-grad" aria-expanded="true" aria-controls="collapseOne"></a>
+                                    </h5>
+                                </div>
+                                <div id="collapse-grad" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="card-block">
+                                        <ul id="grad-course-list"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <!-- progress -->
+                        <p id="grad-status"></p>
+                        
+                        <div id="grad-progress-top" class="progress">               
+                            <div id="grad-progress" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+
+                        <p id="grad-progress-label" class="progress-label"><span id="grad-from"></span><span id="grad-to"></span></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+                  
+            <!-- undergraduate school -->
+            <div id="undergrad-card" class="col-md-6 my-4">
+                <div class="bg-container">
+                <img class="bg" src="img/nthu-campus.jpg">
+                <div class="card card-block">
+                    <div id="undergrad-bg" class="card-block">
+                        
+                        <img class="school-logo" src="img/nthu-logo.png">
+                        
+                        <h2 id="undergrad-name"></h2>
+                        <p id="undergrad-loc"></p>
+                        <p id="undergrad-degree"></p>
+                        <p>
+                            <span id="undergrad-gpa"></span>
+                            <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="out of 4.3" aria-hidden="true"></i>
+                        </p>
+                        <p id="undergrad-major"></p>
+                        
+                        <!-- course -->
+                        <div role="tablist" aria-multiselectable="true">
+                            <div class="card transparent-bg">
+                                <div class="card-header" role="tab">
+                                    <h5 class="mb-0">
+                                        <a id="undergrad-course" data-toggle="collapse" data-parent="#accordion" href="#collapse-undergrad" aria-expanded="true" aria-controls="collapseOne"></a>
+                                    </h5>
+                                </div>
+                                <div id="collapse-undergrad" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="card-block">
+                                        <ul id="undergrad-course-list"></ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <hr>
+                        
+                        <!-- progress -->
+                        <p id="undergrad-status"></p>
+
+                        <div id="undergrad-progress-top" class="progress">
+                            <div id="undergrad-progress" class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>  
+
+                        <p id="undergrad-progress-label" class="progress-label"><span id="undergrad-from"></span><span id="undergrad-to"></span></p>
+                    </div>
+                </div>
+                </div>
+            </div>
+                
+            </div>
+
+        </div>
+        
+        <!-- project -->
+        
+        <div id="project" class="jumbotron text-center">
+
+            <h1>
+                <i class="fa fa-laptop fa-1x" aria-hidden="true"></i>
+                <span id="project-head"></span>
+            </h1>
+
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div id="" class="col-md-4 col-sm-6 my-4">
+                            
+                    <img class="project-img img-responsive" src="img/project1-logo.png" alt="">
+                    <h3 id="p1"></h3>
+                    <p id="p1-content"></p>
+                            
+                </div>
+                
+                <div id="" class="col-md-4 col-sm-6 my-4">
+                            
+                    <img class="project-img img-responsive" src="img/project2-logo.png" alt="">
+                    <h3 id="p2"></h3>
+                    <p id="p2-content"></p>
+                            
+                </div>
+                
+                <div id="" class="col-md-4 col-sm-6 my-4">
+                            
+                    <img class="project-img img-responsive" src="img/project3-logo.png" alt="">
+                    <h3 id="p3"></h3>
+                    <p id="p3-content"></p>
+                            
+                </div>
+                
+                <div id="" class="col-md-4 col-sm-6 my-4">
+                            
+                    <img class="project-img img-responsive" src="img/project4-logo.png" alt="">
+                    <h3 id="p4"></h3>
+                    <p id="p4-content"></p>
+                            
+                </div>
+                
+                <div id="" class="col-md-4 col-sm-6 my-4">
+                            
+                    <img class="project-img img-responsive" src="img/project5-logo.png" alt="">
+                    <h3 id="p5"></h3>
+                    <p id="p5-content"></p>
+                            
+                </div>     
+            </div>        
+        </div>
+        
+        <!-- skills -->
+        
+        <div id="skill" class="jumbotron">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-12 col-lg-offset-1">
+                    <!-- title -->
+                    <h1>
+                        <i class="fa fa-thumbs-o-up fa-1x" aria-hidden="true"></i>
+                        <span id="skill-head"></span>
+                    </h1>
+                    
+                    <hr class="small">
+                    
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code fa-stack-1x text-primary"></i>
+                            </span>
+                                <h3 id="pro-lang-title"></h3>
+                                <p id="pro-lang"></p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-database fa-stack-1x text-primary"></i>
+                            </span>
+                                <h3 id="database-title"></h3>
+                                <p id="database"></p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                            </span>
+                                <h3 id="web-title"></h3>
+                                <p id="web"></p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6">
+                            <div class="service-item">
+                                <span class="fa-stack fa-4x">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-wrench fa-stack-1x text-primary"></i>
+                            </span>
+                                <h3 id="tool-title"></h3>
+                                <p id="tool"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row (nested) -->
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        </div>
+            
+        <!-- biography -->
+                
+        <div id="biography" class="container">
+            
+            <div class="text-center">
+                <h1>
+                    <i class="fa fa-pencil fa-1x" aria-hidden="true"></i>
+                    <span id="biography-head"></span>
+                </h1>
+            </div>
+            
+            <div class="row">
+                
+                <div id="bio-card" class="col-md-12 my-4">
+                    <div class="card card-block">
+                        <div class="card-block">
+
+                            <div id="bio-content"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- extra -->
+        
+        <div id="extra" class="jumbotron text-center">
+            
+            <h1>
+                <i class="fa fa-paper-plane-o fa-1x" aria-hidden="true"></i>
+                <span id="extracurricular-head"></span>
+            </h1>
+            
+        </div>
+            
+        <!-- carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  
+            <ol class="carousel-indicators">
+    
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  
+            </ol>
+  
+            <div class="carousel-inner" role="listbox">
+    
+                <!-- first slide -->
+                <div id="extra1" class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/slide1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>HSNUZS</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+                
+                <!-- second slide -->
+                <div id="extra2" class="carousel-item">
+                    <img class="d-block img-fluid" src="img/slide2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>TEDxNTHU</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+    
+                <!-- third slide -->
+                <div id="extra3" class="carousel-item">
+                    <img class="d-block img-fluid" src="img/slide3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>WMUN</h3>
+                        <p>...</p>
+                    </div>
+                </div>
+                
+            </div>
+  
+            <!-- previous arrow -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+  
+            </a>
+  
+            <!-- next arrow -->
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+  
+            </a>
+
+        </div>
+        
+        <!-- google jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        <!-- jQuery first, then Tether, then Bootstrap JS. -->
+<!--        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        
+        <!-- lorem ipsum -->
+        <script type="text/javascript" src="js/lorem_ipsum.js?"></script>
+        
+        <!-- my information -->
+        <script type="text/javascript" src="js/info.js?"></script>
+        
+        <!-- english biography -->
+        <script type="text/javascript" src="js/englishBio.js?"></script>
+        
+        <!-- chinese biography -->
+        <script type="text/javascript" src="js/chineseBio.js?"></script>
+        
+        <!-- my js -->
+        <script type="text/javascript" src="js/me.js?"></script>
+      
+  </body>
+</html>
