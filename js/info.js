@@ -61,8 +61,8 @@ var english = {
             "At first, We recorded human voice at only a single pitch, and we used DSP to simulate piano sound at every pitch. It sounds like a person is singing like a piano. In order to detect motions of playing the piano, we used a color filter to distinguish red, green, and blue on the image recorded by webcam. We chose a color which is obvious under the filter as our indicator for 'press' action on the paper keyboard. Then we can demonstrate piano keyboard with classic music 'I dreamed a dream'."]
     },
     "skill": {
-        "title": ["Languages", "Database", "Web", "Tools"],
-        "content": ["Python, Java, C/C++", "SQL, Oracle SQL*Plus, MySQL", "HTML, CSS, JavaScript (jQuery), Bootstrap, PHP", "Linux, Git, MATLAB"]
+        "title": ["Languages", "Databases", "Web", "Tools"],
+        "content": ["Python, Ruby, Java, C/C++, Swift", "SQL, Oracle SQL*Plus, MySQL", "HTML, CSS, JavaScript (jQuery), Bootstrap, PHP", "Git, MATLAB"]
     },
     "extra": {
         "title": ["HSNUZS", "TEDxNTHU", "WMUN"],
