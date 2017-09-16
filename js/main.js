@@ -106,6 +106,10 @@ function changeEnglish() {
         }
     }
     // work
+    // parttime
+    for (var j = 0; j < id.work.parttime.length; j++) {
+        $("#"+id.work.parttime[j]).html(english.work.parttime[j]);
+    }
     // intern
     for (var j = 0; j < id.work.intern.length; j++) {
         $("#"+id.work.intern[j]).html(english.work.intern[j]);
@@ -179,6 +183,10 @@ function changeChinese() {
         $("#"+id.head[i]).html(chinese.head[i]);
     }
     // work
+    // parttime
+    for (var j = 0; j < id.work.parttime.length; j++) {
+        $("#"+id.work.parttime[j]).html(chinese.work.parttime[j]);
+    }
     // intern
     for (var j = 0; j < id.work.intern.length; j++) {
         $("#"+id.work.intern[j]).html(chinese.work.intern[j]);

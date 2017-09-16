@@ -4,6 +4,7 @@ var id = {
     "head": ["name-head", "workexperience-head", "education-head", "project-head", "skill-head", "biography-head", "extracurricular-head"],
     "contact": ["linkedin", "github", "facebook", "twitter", "mobile", "email"],
     "work" : {
+        "parttime": ["parttime-name", "parttime-loc", "parttime-startdate", "parttime-enddate"],
         "intern": ["intern-name", "intern-loc", "intern-startdate", "intern-enddate"],
     },
     "school": {
@@ -36,11 +37,12 @@ var english = {
         "+1 734-548-7072", 
         "borkaehw@umich.edu"],
     "work" : {
-        "intern": ["Clinc, Inc", "Ann Arbor, Michigan, US", "May 2017", "August 2017"],
+        "parttime": ["UMTRI", "Ann Arbor, MI, USA", "Sep 2017", "Present"],
+        "intern": ["Clinc, Inc.", "Ann Arbor, MI, USA", "May 2017", "August 2017"],
     },
     "school": {
-        "grad": ["Univerisity of Michigan", "Ann Arbor, Michigan, US", "Master", "GPA 3.7", "Electrical and Computer Engineering", "Courses", "September 2016", "April 2018"],
-        "gradCourse": ["Operating Systems", "Database Management Systems", "Machine Learning", "Matrix Methods"],
+        "grad": ["Univerisity of Michigan", "Ann Arbor, MI, USA", "Master", "GPA 3.7", "Electrical and Computer Engineering", "Courses", "September 2016", "April 2018"],
+        "gradCourse": ["Operating Systems", "Database Management Systems", "Machine Learning", "Self-Driving Car", "Big Data Systems", "Matrix Methods", "Probability and Random Process"],
         "undergrad": ["National Tsing Hua University", "Hsinchu, Taiwan", "Bachelor", "GPA 4.05", "Electrical Engineering", "Courses", "September 2011", "June 2015"],
         "undergradCourse": ["Digital Signal Processing", "Operating Systems", "Data Structures", "Computer Architecture", "Signals and Systems"]
     },
@@ -76,11 +78,12 @@ var english = {
 var chinese = {
     "head": ["黃柏愷", "工作經驗", "學歷", "專題", "技術", "自傳", "課外活動"],
     "work" : {
-        "intern": ["Clinc, Inc", "美國 密西根州 安娜堡市", "2017年5月", "2017年8月"],
+        "parttime": ["UMTRI", "美國 密西根州 安娜堡市", "2017年9月", "現今"],
+        "intern": ["Clinc, Inc.", "美國 密西根州 安娜堡市", "2017年5月", "2017年8月"],
     },
     "school": {
         "grad": ["密西根大學", "美國 密西根州 安娜堡市", "碩士", "GPA 3.7", "電機與電腦工程學系", "修課", "2016年9月", "2018年4月"],
-        "gradCourse": ["作業系統", "資料庫", "機器學習", "矩陣方法"],
+        "gradCourse": ["作業系統", "資料庫", "機器學習", "自動駕駛車", "大數據系統", "矩陣方法", "機率與隨機過程"],
         "undergrad": ["國立清華大學", "台灣 新竹市", "學士", "GPA 4.05", "電機工程學系", "修課", "2011年9月", "2015年6月"],
         "undergradCourse": ["數位訊號處理", "作業系統", "資料結構", "計算機結構", "訊號與系統"]
     },
