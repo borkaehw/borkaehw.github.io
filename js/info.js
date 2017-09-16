@@ -4,13 +4,13 @@ var id = {
     "head": ["name-head", "workexperience-head", "education-head", "project-head", "skill-head", "biography-head", "extracurricular-head"],
     "contact": ["linkedin", "github", "facebook", "twitter", "mobile", "email"],
     "work" : {
-        "parttime": ["parttime-name", "parttime-loc", "parttime-startdate", "parttime-enddate"],
-        "intern": ["intern-name", "intern-loc", "intern-startdate", "intern-enddate"],
+        "parttime": ["parttime-name", "parttime-loc", "parttime-startdate", "parttime-enddate", "parttime-des"],
+        "intern": ["intern-name", "intern-loc", "intern-startdate", "intern-enddate", "intern-des"],
     },
     "school": {
-        "grad": ["grad-name", "grad-loc", "grad-degree", "grad-gpa", "grad-major", "grad-course", "grad-from", "grad-to"],
+        "grad": ["grad-name", "grad-loc", "grad-degree", "grad-gpa", "grad-course", "grad-from", "grad-to"],
         "gradCourse": ["grad-course-list"],
-        "undergrad": ["undergrad-name", "undergrad-loc", "undergrad-degree", "undergrad-gpa", "undergrad-major", "undergrad-course", "undergrad-from", "undergrad-to"],
+        "undergrad": ["undergrad-name", "undergrad-loc", "undergrad-degree", "undergrad-gpa", "undergrad-course", "undergrad-from", "undergrad-to"],
         "undergradCourse": ["undergrad-course-list"]
     },
     "project": {
@@ -28,7 +28,7 @@ var id = {
 };
 
 var english = {
-    "head": ["Kevin Hwang", "Work Experience", "Education", "Project", "Skills", "Biography", "Extracurricular Activities"],
+    "head": ["Kevin Hwang", "Work Experience", "Education", "Projects", "Skills", "Biography", "Extracurricular Activities"],
     "contact": [
         "https://www.linkedin.com/in/borkaehwang", 
         "https://github.com/borkaehw", 
@@ -37,20 +37,20 @@ var english = {
         "+1 734-548-7072", 
         "borkaehw@umich.edu"],
     "work" : {
-        "parttime": ["UMTRI", "Ann Arbor, MI, USA", "Sep 2017", "Present"],
-        "intern": ["Clinc, Inc.", "Ann Arbor, MI, USA", "May 2017", "August 2017"],
+        "parttime": ["UMTRI", "Ann Arbor, MI, USA", "Sep 2017", "Present", "I am working on a variaty of traffic data of Michigan area. My goal is to extract the useful information and present it to drivers in real-time. In addition, those data will also be the basis of autonamous car development. I use Python for data analysis and JavaScript for presenting data on web. I just started, they will be a lot more experience I want to share when time goes on, stay tuned."],
+        "intern": ["Clinc, Inc.", "Ann Arbor, MI, USA", "May 2017", "August 2017", "I worked as a software engineer intern. Clinc is a startup in Ann Arbor, MI. their main focus is on personal financial assistant called Finie, which is a combination of \"Financial\" and \"Genie\". The reason why Finie is special is that people can use colloquial sentences to interact with Finie, even though there are some grammar mistakes or vague expressions in your sentences, Finie can understand it just like you are talking to a human being.<br>During the intern, I joined a project team called Finie for the Family. There are three major accomplishments for myself. The first one is building a monthly  budget tracking feature. Budgeting feature allows user to set a spending limit based either on certain categories or in general, it prevents users to overspend with next purchase. Besides creating a spending limit, users can modify their current amount or remove it. Finie can also give you spending advice based on the budget you have. The other similar is built on top of Finie, while we focused more on family assistant. Besides budgeting as a basic function, every family member could edit common shopping lists, or send notifications to family member. The last project is small but also exciting, I designed a web-app based chatbot to display the conversation between user and Finie.<br>Through out my intern, I used mostly Python as back-end language and Javascript as front-end language. Besides the feature designs as I mentioned above, I also had experience collecting crowd data by using Amazon Mechanical Turk, feeding data to machine learning model. For the back-end part, I used Django, an open source web framework written in Python, to interact with database."],
     },
     "school": {
-        "grad": ["Univerisity of Michigan", "Ann Arbor, MI, USA", "Master", "GPA 3.7", "Electrical and Computer Engineering", "Courses", "September 2016", "April 2018"],
+        "grad": ["Univerisity of Michigan", "Ann Arbor, MI, USA", "Master of Science Engineering in Electrical and Computer Engineering", "GPA 3.7", "Courses", "September 2016", "April 2018"],
         "gradCourse": ["Operating Systems", "Database Management Systems", "Machine Learning", "Self-Driving Car", "Big Data Systems", "Matrix Methods", "Probability and Random Process"],
-        "undergrad": ["National Tsing Hua University", "Hsinchu, Taiwan", "Bachelor", "GPA 4.05", "Electrical Engineering", "Courses", "September 2011", "June 2015"],
+        "undergrad": ["National Tsing Hua University", "Hsinchu, Taiwan", "Bachelor of Science Engineering in Electrical Engineering", "GPA 4.05", "Courses", "September 2011", "June 2015"],
         "undergradCourse": ["Digital Signal Processing", "Operating Systems", "Data Structures", "Computer Architecture", "Signals and Systems"]
     },
     "project": {
         "title": [
             "Front-End Web Design: Starkque", 
-            "Multi-class AdaBoost Algorithms Comparison", 
-            "2D Indoor Positioning System through Android Game App", 
+            "Multi-class AdaBoost Algorithm Comparison", 
+            "2D Indoor Positioning System in an Android Game App", 
             "Augmented Reality Implementation with Box Man", 
             "Image and Audio Processing with Paper Keyboard"],
         "content": [
