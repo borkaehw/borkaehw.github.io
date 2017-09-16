@@ -360,11 +360,11 @@ $(window).resize(function() {
         
 });
 
-$("form").submit(function(event) {
+$("#submit-email").submit(function(event) {
     // if this function return false, form will not be submitted
 
     if (emailMe(event)) {
-        
+
         return true;
         
     } else {
