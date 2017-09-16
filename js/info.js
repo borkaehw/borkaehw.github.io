@@ -30,7 +30,7 @@ var english = {
     "head": ["Kevin Hwang", "Work Experience", "Education", "Project", "Skills", "Biography", "Extracurricular Activities"],
     "contact": [
         "https://www.linkedin.com/in/borkaehwang", 
-        "https://github.com/hi89757", 
+        "https://github.com/borkaehw", 
         "https://www.facebook.com/profile.php?id=100000219184369",
         "https://twitter.com/hi89757",
         "+1 734-548-7072", 
